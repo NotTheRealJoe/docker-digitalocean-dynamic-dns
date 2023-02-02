@@ -1,0 +1,1 @@
+*/10 * * * * root /bin/bash /root/dynamic-dns/run.sh

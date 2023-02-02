@@ -1,0 +1,7 @@
+version: "3.0"
+services:
+  digitalocean-dynamic-dns:
+    container_name: digitalocean-dynamic-dns
+    build:
+      context: .
+      dockerfile: Dockerfile

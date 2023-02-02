@@ -1,0 +1,10 @@
+#!/bin/bash
+
+DOMAIN='example.com'
+HOST='subdomain'
+DO_API_KEY='your_digitalocean_api_key'
+
+########################
+
+SCRIPT_DIR="$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
+php "$SCRIPT_DIR/updater.php" $DO_API_KEY $DOMAIN $HOST A
