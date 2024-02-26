@@ -31,5 +31,4 @@ The PHP script was originally written by Github user [bensquire](https://github.
 
 Please see the original repository: https://github.com/bensquire/Digital-Ocean-Dynamic-DNS-Updater
 
-bensquire's work was licensed under the Apache License 2.0. The extensions and modifications to his work in this repo are licensed under the GPLv3, see the LICENSE file for details. The last version of the code in this repo available under Apache License 2.0 is commit
-`7e3b9284e7e6e06c8ba76486b2c6ded8571acb5f`.
+bensquire's work was licensed under the Apache License 2.0. The extensions and modifications to his work in this repo are licensed under the GPLv3, see the LICENSE file for details. The code in bensquire's original repository remains licensed under the LICENSE file specified there.
