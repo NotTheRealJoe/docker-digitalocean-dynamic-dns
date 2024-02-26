@@ -18,7 +18,14 @@ If you don't already have an API key for the steps above, get it from the Digita
 2. Select the "Tokens" tab. The type of token we will use is a **Personal access token**.
 3. Click "Generate New Token".
 
-## Credits:
+## IPv6
+
+With the included configuration, the container will fail to run if your host does not have IPv6 addressing available. If you want to run without IPv6:
+
+- Set `networks.default.enable_ipv6` to `false` in the docker-compose.yml
+- Remove any entries that update an AAAA record in run.sh
+
+## Credits
 
 The PHP script was originally written by Github user [bensquire](https://github.com/bensquire) who wrote in the original readme that it was based on a Python v2 script from http://pushingkarma.com/notebook/dynamic-dns-your-home-pc-using-digitaloceans-api \[[archived](http://web.archive.org/web/20150219032808/http://pushingkarma.com/notebook/dynamic-dns-your-home-pc-using-digitaloceans-api/)\].
 

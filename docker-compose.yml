@@ -1,4 +1,4 @@
-version: "3.0"
+version: "3.8"
 services:
   digitalocean-dynamic-dns:
     container_name: digitalocean-dynamic-dns
@@ -6,3 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     restart: unless-stopped
+networks:
+  default:
+    driver: bridge
+    enable_ipv6: true
