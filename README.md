@@ -17,3 +17,12 @@ If you don't already have an API key for the steps above, get it from the Digita
 1. Select "API" at the bottom of the left column
 2. Select the "Tokens" tab. The type of token we will use is a **Personal access token**.
 3. Click "Generate New Token".
+
+## Credits:
+
+The PHP script was originally written by Github user [bensquire](https://github.com/bensquire) who wrote in the original readme that it was based on a Python v2 script from http://pushingkarma.com/notebook/dynamic-dns-your-home-pc-using-digitaloceans-api \[[archived](http://web.archive.org/web/20150219032808/http://pushingkarma.com/notebook/dynamic-dns-your-home-pc-using-digitaloceans-api/)\].
+
+Please see the original repository: https://github.com/bensquire/Digital-Ocean-Dynamic-DNS-Updater
+
+bensquire's work was licensed under the Apache License 2.0. The extensions and modifications to his work in this repo are licensed under the GPLv3, see the LICENSE file for details. The last version of the code in this repo available under Apache License 2.0 is commit
+`7e3b9284e7e6e06c8ba76486b2c6ded8571acb5f`.
